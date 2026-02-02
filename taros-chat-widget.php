@@ -20,7 +20,11 @@ if (!defined('ABSPATH')) {
 
 define('TAROS_PLUGIN_VERSION', '1.0.0');
 define('TAROS_PLUGIN_URL', plugin_dir_url(__FILE__));
-define('TAROS_APP_URL', 'https://taros.ai');
+
+// Allow overriding the app URL for testing (define in wp-config.php)
+if (!defined('TAROS_APP_URL')) {
+    define('TAROS_APP_URL', 'https://taros.ai');
+}
 
 /**
  * Main Taros Chat Widget Class
