@@ -32,6 +32,7 @@ Official WordPress plugin for [Taros](https://taros.ai) - Add an AI-powered chat
 
 ## Support
 
+- [Documentation](https://taros.ai/docs)
 - Email: support@taros.ai
 
 ## License
