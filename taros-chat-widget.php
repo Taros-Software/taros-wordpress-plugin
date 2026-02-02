@@ -118,7 +118,7 @@ class Taros_Chat_Widget {
                     <table class="form-table" role="presentation">
                         <tr>
                             <th scope="row">
-                                <label for="taros_bot_id"><?php _e('Bot ID', 'taros-chat-widget'); ?></label>
+                                <label for="taros_bot_id"><?php esc_html_e('Bot ID', 'taros-chat-widget'); ?></label>
                             </th>
                             <td>
                                 <input
@@ -130,12 +130,12 @@ class Taros_Chat_Widget {
                                     placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
                                 />
                                 <p class="description">
-                                    <?php _e('Find your Bot ID in the <a href="https://app.taros.ai/dashboard" target="_blank">Taros Dashboard</a> under Widget settings.', 'taros-chat-widget'); ?>
+                                    <?php echo wp_kses(__('Find your Bot ID in the <a href="https://app.taros.ai/dashboard" target="_blank">Taros Dashboard</a> under Widget settings.', 'taros-chat-widget'), array('a' => array('href' => array(), 'target' => array()))); ?>
                                 </p>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><?php _e('Enable Widget', 'taros-chat-widget'); ?></th>
+                            <th scope="row"><?php esc_html_e('Enable Widget', 'taros-chat-widget'); ?></th>
                             <td>
                                 <label for="taros_widget_enabled">
                                     <input
@@ -145,7 +145,7 @@ class Taros_Chat_Widget {
                                         value="1"
                                         <?php checked($widget_enabled, true); ?>
                                     />
-                                    <?php _e('Show the chat widget on your site', 'taros-chat-widget'); ?>
+                                    <?php esc_html_e('Show the chat widget on your site', 'taros-chat-widget'); ?>
                                 </label>
                             </td>
                         </tr>
@@ -156,11 +156,11 @@ class Taros_Chat_Widget {
             </div>
 
             <div style="background: #f0f6fc; padding: 20px; border-radius: 8px; border-left: 4px solid #2271b1; max-width: 600px; margin-top: 20px;">
-                <h3 style="margin-top: 0;"><?php _e('Need help?', 'taros-chat-widget'); ?></h3>
-                <p><?php _e('Visit our documentation or contact support:', 'taros-chat-widget'); ?></p>
+                <h3 style="margin-top: 0;"><?php esc_html_e('Need help?', 'taros-chat-widget'); ?></h3>
+                <p><?php esc_html_e('Visit our documentation or contact support:', 'taros-chat-widget'); ?></p>
                 <ul style="margin-bottom: 0;">
-                    <li><a href="https://taros.ai/docs" target="_blank"><?php _e('Documentation', 'taros-chat-widget'); ?></a></li>
-                    <li><a href="https://taros.ai/support" target="_blank"><?php _e('Contact Support', 'taros-chat-widget'); ?></a></li>
+                    <li><a href="https://taros.ai/docs" target="_blank"><?php esc_html_e('Documentation', 'taros-chat-widget'); ?></a></li>
+                    <li><a href="https://taros.ai/support" target="_blank"><?php esc_html_e('Contact Support', 'taros-chat-widget'); ?></a></li>
                 </ul>
             </div>
         </div>

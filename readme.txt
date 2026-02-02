@@ -1,8 +1,8 @@
 === Taros Chat Widget ===
 Contributors: tarosai
-Tags: chat, chatbot, ai, woocommerce, customer support, live chat, widget
+Tags: chat, chatbot, ai, woocommerce, customer support
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.9
 Stable tag: 1.0.0
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -26,7 +26,7 @@ Taros is an AI-powered chat widget that helps your website visitors get instant 
 
 **How it works:**
 
-1. Create a free account at [taros.ai](https://taros.ai)
+1. Start a free trial at [taros.ai](https://taros.ai)
 2. Train your chatbot with your website content
 3. Install this plugin and enter your Bot ID
 4. Your AI chat widget is live!
@@ -50,7 +50,7 @@ Taros is an AI-powered chat widget that helps your website visitors get instant 
 
 = Where do I get a Bot ID? =
 
-Sign up for a free account at [taros.ai](https://taros.ai), create a chatbot, and you'll find your Bot ID in the Widget settings section of your dashboard.
+Start a free trial at [taros.ai](https://taros.ai), create a chatbot, and you'll find your Bot ID in the Widget settings section of your dashboard.
 
 = Does this work with WooCommerce? =
 

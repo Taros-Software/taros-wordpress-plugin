@@ -18,7 +18,7 @@ Official WordPress plugin for [Taros](https://taros.ai) - Add an AI-powered chat
 
 ## Getting Your Bot ID
 
-1. Create a free account at [taros.ai](https://taros.ai)
+1. Start a free trial at [taros.ai](https://taros.ai)
 2. Create a chatbot and train it with your content
 3. Go to Widget settings in your dashboard
 4. Copy your Bot ID
