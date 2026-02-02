@@ -130,7 +130,7 @@ class Taros_Chat_Widget {
                                     placeholder="xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
                                 />
                                 <p class="description">
-                                    <?php echo wp_kses(__('Find your Bot ID in the <a href="https://app.taros.ai/dashboard" target="_blank">Taros Dashboard</a> under Widget settings.', 'taros-chat-widget'), array('a' => array('href' => array(), 'target' => array()))); ?>
+                                    <?php echo wp_kses(__('Find your Bot ID in the <a href="https://taros.ai/dashboard" target="_blank">Taros Dashboard</a> under Widget settings.', 'taros-chat-widget'), array('a' => array('href' => array(), 'target' => array()))); ?>
                                 </p>
                             </td>
                         </tr>

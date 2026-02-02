@@ -43,7 +43,7 @@ Taros is an AI-powered chat widget that helps your website visitors get instant 
 1. Upload the plugin files to the `/wp-content/plugins/taros-chat-widget` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Go to Settings → Taros Chat to configure the plugin.
-4. Enter your Bot ID from your [Taros Dashboard](https://app.taros.ai/dashboard).
+4. Enter your Bot ID from your [Taros Dashboard](https://taros.ai/dashboard).
 5. Save settings and the widget will appear on your site!
 
 == Frequently Asked Questions ==
