@@ -21,9 +21,12 @@ if (!defined('ABSPATH')) {
 define('TAROS_PLUGIN_VERSION', '1.0.0');
 define('TAROS_PLUGIN_URL', plugin_dir_url(__FILE__));
 
-// Allow overriding the app URL for testing (define in wp-config.php)
+// Allow overriding URLs for testing (define in wp-config.php)
 if (!defined('TAROS_APP_URL')) {
     define('TAROS_APP_URL', 'https://taros.ai');
+}
+if (!defined('TAROS_WIDGET_URL')) {
+    define('TAROS_WIDGET_URL', 'https://widgets.taros.ai/widget.js');
 }
 
 /**
@@ -311,7 +314,7 @@ class Taros_Chat_Widget {
 
         // Output the widget script
         ?>
-        <script data-bot="<?php echo esc_attr($bot_id); ?>" src="https://widgets.taros.ai/widget.js" async></script>
+        <script data-bot="<?php echo esc_attr($bot_id); ?>" src="<?php echo esc_url(TAROS_WIDGET_URL); ?>" async></script>
         <?php
     }
 }
