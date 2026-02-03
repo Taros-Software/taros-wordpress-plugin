@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Taros Chat Widget
- * Plugin URI: https://taros.ai
+ * Plugin URI: https://github.com/Taros-Software/taros-wordpress-plugin
  * Description: Add an AI-powered chat widget to your WordPress or WooCommerce store. Taros helps your customers get instant answers 24/7.
  * Version: 1.0.0
  * Author: Taros
