@@ -74,6 +74,15 @@ The widget script loads asynchronously and won't block your page from loading. I
 2. Chat widget on your website
 3. Mobile view of the chat widget
 
+== External Services ==
+
+This plugin connects to the Taros service (taros.ai) to provide AI-powered chat functionality:
+
+* **Authentication**: When you click "Connect with Taros", you are redirected to taros.ai to log in and select a chatbot.
+* **Widget Script**: The chat widget is loaded from widgets.taros.ai and communicates with Taros servers to provide AI responses.
+
+By using this plugin, you agree to the [Taros Terms of Service](https://taros.ai/terms) and [Privacy Policy](https://taros.ai/privacy).
+
 == Changelog ==
 
 = 1.0.0 =
